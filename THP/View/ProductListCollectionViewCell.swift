@@ -28,6 +28,5 @@ class ProductListCollectionViewCell: UICollectionViewCell {
         productImageView.loadImageFromURL(urlString: urlString, placeHolder: UIImage(named: "PlaceHolderLogo"))
     }
     
-    
 }
   
