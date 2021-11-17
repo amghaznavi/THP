@@ -12,7 +12,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="iAR-vk-KZc">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4Sr-Dz-Ibf" customClass="TabBarController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="4Sr-Dz-Ibf" customClass="TabBarController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="u8e-P2-vBu">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -36,7 +36,7 @@
         <!--MY RIVER ISLAND-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MyRiverIslandViewController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MyRiverIslandViewController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,7 +74,7 @@
         <!--HOME-->
         <scene sceneID="zf5-In-Mhh">
             <objects>
-                <viewController id="tOp-sA-JUB" customClass="HomeViewController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="tOp-sA-JUB" customClass="HomeViewController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZHM-HZ-wXv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -115,7 +115,7 @@
         <!--BAG-->
         <scene sceneID="eYf-dm-cu0">
             <objects>
-                <viewController id="Pfo-WO-dM0" customClass="BagViewController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Pfo-WO-dM0" customClass="BagViewController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wVh-X2-pT9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -131,7 +131,7 @@
         <!--SEARCH-->
         <scene sceneID="nUc-Qg-Fhi">
             <objects>
-                <viewController id="qyk-qc-CE4" customClass="SearchViewController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qyk-qc-CE4" customClass="SearchViewController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="atm-Hu-Bgf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -147,7 +147,7 @@
         <!--WISHLIST-->
         <scene sceneID="ufc-bI-VTx">
             <objects>
-                <viewController id="w2d-7T-ev0" customClass="WishlistViewController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="w2d-7T-ev0" customClass="WishlistViewController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rif-F1-BxB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -252,34 +252,22 @@
         <!--Product Detail View Controller-->
         <scene sceneID="son-qW-u8K">
             <objects>
-                <viewController storyboardIdentifier="ProductDetailVC" id="bfn-Kj-7tA" customClass="ProductDetailViewController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductDetailVC" id="bfn-Kj-7tA" customClass="ProductDetailViewController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="99I-as-ZEW">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i8d-kd-1KK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2mv-9D-UeG">
                                 <rect key="frame" x="0.0" y="140" width="414" height="673"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2mv-9D-UeG">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="673"/>
-                                    </imageView>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="2mv-9D-UeG" firstAttribute="top" secondItem="i8d-kd-1KK" secondAttribute="top" id="G6l-qt-3QD"/>
-                                    <constraint firstItem="2mv-9D-UeG" firstAttribute="leading" secondItem="i8d-kd-1KK" secondAttribute="leading" id="LMu-Dg-FdA"/>
-                                    <constraint firstAttribute="trailing" secondItem="2mv-9D-UeG" secondAttribute="trailing" id="Up0-5h-RfL"/>
-                                    <constraint firstAttribute="bottom" secondItem="2mv-9D-UeG" secondAttribute="bottom" id="nxA-X1-1RS"/>
-                                </constraints>
-                            </view>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Gbn-O3-FOJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="i8d-kd-1KK" firstAttribute="bottom" secondItem="Gbn-O3-FOJ" secondAttribute="bottom" id="HBC-Jc-PWR"/>
-                            <constraint firstItem="i8d-kd-1KK" firstAttribute="top" secondItem="Gbn-O3-FOJ" secondAttribute="top" id="MGx-MO-4ux"/>
-                            <constraint firstItem="i8d-kd-1KK" firstAttribute="leading" secondItem="Gbn-O3-FOJ" secondAttribute="leading" id="e41-QS-qbI"/>
-                            <constraint firstItem="Gbn-O3-FOJ" firstAttribute="trailing" secondItem="i8d-kd-1KK" secondAttribute="trailing" id="qnl-81-Um7"/>
+                            <constraint firstItem="Gbn-O3-FOJ" firstAttribute="trailing" secondItem="2mv-9D-UeG" secondAttribute="trailing" id="1mv-pb-CwX"/>
+                            <constraint firstItem="Gbn-O3-FOJ" firstAttribute="bottom" secondItem="2mv-9D-UeG" secondAttribute="bottom" id="C1t-ep-mQk"/>
+                            <constraint firstItem="2mv-9D-UeG" firstAttribute="top" secondItem="Gbn-O3-FOJ" secondAttribute="top" id="KEf-9J-PqN"/>
+                            <constraint firstItem="2mv-9D-UeG" firstAttribute="leading" secondItem="Gbn-O3-FOJ" secondAttribute="leading" id="s0F-l2-OcV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="PK6-1U-ozj"/>
@@ -294,7 +282,7 @@
         <!--Product List View Controller-->
         <scene sceneID="qjX-5g-emP">
             <objects>
-                <viewController storyboardIdentifier="ProductListVC" id="m2t-fL-Xwq" customClass="ProductListViewController" customModule="TakeHomeP" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProductListVC" id="m2t-fL-Xwq" customClass="ProductListViewController" customModule="THP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="a7N-eq-1Dg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

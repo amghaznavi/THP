@@ -162,8 +162,8 @@
 		7FC5D23F2745528100DE6B67 /* SubView */ = {
 			isa = PBXGroup;
 			children = (
-				7FC5D2402745528100DE6B67 /* ProductDetailViewController.swift */,
 				7FC5D2412745528100DE6B67 /* ProductListViewController.swift */,
+				7FC5D2402745528100DE6B67 /* ProductDetailViewController.swift */,
 			);
 			path = SubView;
 			sourceTree = "<group>";

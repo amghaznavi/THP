@@ -68,7 +68,9 @@ extension ProductListViewController: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: ProductListCollectionViewCell.identifier, for: indexPath) as! ProductListCollectionViewCell
         cell.setup(url: imageURLString)
         cell.titleLabel.text = productName.uppercased()
+        cell.titleLabel.textColor = .darkGray
         cell.costLabel.text = productCost.currencyFormatting()
+        cell.costLabel.textColor = .darkText
         return cell
     }
 }

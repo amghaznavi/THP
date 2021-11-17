@@ -15,7 +15,6 @@ class ProductDetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         view.backgroundColor = .white
         title = "PRODUCT DETAIL"
     }
@@ -23,7 +22,6 @@ class ProductDetailViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
         loadDeatilViewImage()
     }
 
